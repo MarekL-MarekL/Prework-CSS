@@ -1,0 +1,23 @@
+body{
+background-color: aqua;
+}
+h1{
+    background-color: blue;
+    color: burlywood;
+}
+.p{
+    background-color: rgb(212, 75, 20);
+    color: rgb(49, 45, 44);
+}
+.p1{
+    background-color: rgb(177, 50, 99);
+    color: darkblue;
+}
+h2 {
+    background-color: rgb(0, 255, 0);
+    color: darkgoldenrod;
+}
+ol {
+    background-color: rgb(173, 200, 173);
+    color: darkred;
+}
