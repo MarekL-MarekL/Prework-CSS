@@ -1,0 +1,49 @@
+/* selektor znacznika */
+h2{  
+    color: blue;
+    font: size 2.3em; 
+}
+/* selektor id */
+#section2{
+background-color: rgb(165, 153, 42);
+}
+
+/* selektor klasy */
+.first-paragraf{
+    color: brown;
+}
+
+/* kaskadowo */
+p{
+    background-color: yellow;
+}
+p{
+    background-color: rgb(0, 255, 98);
+}
+
+/* zlozone selektory */
+li,p,section{
+    margin-bottom: 30px;
+}
+
+section>header{
+    color: red;
+
+}
+/* wszytkie znaczniki a ktore sa w sekcji bez wzgledu na poziom zagniezdzenia */
+section header{
+    font-size: 2em;
+}
+
+/* bezposerednie rodzenstwo */
+h2+p{
+    line-height: 2;
+
+}
+
+/* zmienia wyglad wszytkich praragrafow ktore sa elementsmi rodzenstwa wystepujacymi po h2 to uzyjemy znaku tyldy */
+
+h2~p{
+ font-size: 3em;
+
+}

@@ -1,0 +1,16 @@
+h1{
+    padding-top: 15px;
+    padding-left: 15px;
+    color: rgb(250, 250, 250);
+}
+.container{
+    background-color:#808080;
+    height: 550px;
+    width: 250px;
+}
+.div{
+    margin-left: 20px;
+    background-color:#fea500;    
+    height: 100px;
+    width: 100px;
+}
